@@ -21,16 +21,23 @@
 
 # 3. 구성도
 <br/>
+
 ![딥러닝 모델 개발 구성도](https://user-images.githubusercontent.com/105485617/195505793-3668c641-d472-4404-9d9c-9ad7f1eb2156.png)
 
+<br/>
  뇌 MRI 영상 데이터 셋을 통해 모델을 새로 학습시킨다. Radiological Society of North America 에서 제공하는 585명의 mpMRI 환자 데이터를 사용하여 데이터 셋을 구축한다.
  <br/>
+ 
  2D 모델과 3D 모델에 데이터를 입력하기 위해 원본 데이터를 전처리한다. 원본 데이터는 환자 한 명 당 224*224 크기의 MRI 사진 수십 장으로 이루어져 있다. 2D 모델에 사용할 데이터의 경우 원본 MRI 데이터 사진을 64*64 크기로 압축하여 사용하고, 3D 모델에 사용할 데이터의 경우 원본 MRI 데이터를 한 개의 64*64*64 크기 파일로 압축하여 사용한다.
  <br/>
+ 
  전처리된 2D 데이터와 3D 데이터를 각각 2D 모델과 3D 모델에 학습시킨다. 이후 데이터의 편중을 막고 모델의 올바른 일반화 성능을 위해 Stratified 5 Fold Cross Valication 을 적용한다. 교차 검증을 진행함과 동시에 각각의 Fold 가 학습될 때마다 Fold 별 Confusion Matrix 를 출력한다. 5개의 Confusion Matrix 로부터 얻어진 성능 평가 지표 (Accuracy, Precision, Recall, F1 Score) 를 사용해 Average, Std 값을 구한다. 
  <br/>
+ 
  이 과정을 통해 결과적으로 뇌 MRI 영상에 대한 MGMT 프로모터 메틸화 상태를 분류해보고자 한다.
+ 
 <br/>
+
 <br/>
 # 4. 소개 및 시연 영상
 
