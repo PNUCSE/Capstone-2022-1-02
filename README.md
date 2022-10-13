@@ -20,7 +20,7 @@
 <br/>
 
 # 3. 구성도
-![딥러닝 모델 개발 구성도](https://drive.google.com/file/d/1w33kycIgLEvyi-UHte_YtK_oC4b-nDdP/view?usp=sharing)
+![딥러닝 모델 개발 구성도](https://user-images.githubusercontent.com/105485617/195505793-3668c641-d472-4404-9d9c-9ad7f1eb2156.png)
 
  뇌 MRI 영상 데이터 셋을 통해 모델을 새로 학습시킨다. Radiological Society of North America 에서 제공하는 585명의 mpMRI 환자 데이터를 사용하여 데이터 셋을 구축한다.
  2D 모델과 3D 모델에 데이터를 입력하기 위해 원본 데이터를 전처리한다. 원본 데이터는 환자 한 명 당 224*224 크기의 MRI 사진 수십 장으로 이루어져 있다. 2D 모델에 사용할 데이터의 경우 원본 MRI 데이터 사진을 64*64 크기로 압축하여 사용하고, 3D 모델에 사용할 데이터의 경우 원본 MRI 데이터를 한 개의 64*64*64 크기 파일로 압축하여 사용한다.
