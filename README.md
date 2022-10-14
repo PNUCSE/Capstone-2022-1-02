@@ -48,7 +48,8 @@
 * 2D 모델 학습과 3D 전처리 데이터 코드의 실행을 위해 kaggle(https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/data)에서 제공하는 원본 데이터를 다운받습니다.
 
 ### 2. 환경 설정
-* 개발 환경은 python 3.6.9입니다.
+* Ubuntu 18.04.6 버전에서 개발되었습니다.
+* Python 3.6.9 버전을 사용합니다. 
 
 ### 3. 사용 라이브러리
 * 코드 실행에 필요한 python library를 다운받습니다.
