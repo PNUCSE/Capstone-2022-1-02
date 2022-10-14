@@ -64,3 +64,6 @@ pip install tensorflow
 pip install scikit-learn
 pip install tqdm
 ```
+* csv 파일이 저장된 경로(train_df, test_df)와 데이터 셋이 저장된 경로(train_dir, test_dir)를 해당 파일이 저장된 경로로 수정합니다.
+* train_2D_model.py 또는 train_3D_model.py를 실행합니다.
+* 학습이 완료된 이후, 예측 결과 값이 csv 파일로 출력됩니다.
