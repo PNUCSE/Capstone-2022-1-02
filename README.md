@@ -66,9 +66,15 @@ pip install tqdm
 
 ### 4. 경로 수정
 * csv 파일이 저장된 경로(train_df, test_df)와 데이터 셋이 저장된 경로(train_dir, test_dir)를 해당 파일이 저장된 경로로 수정합니다.
+* k-fold-cv 의 상위 경로와 Confusion_Matrix_fold{} 를 출력할 경로를 수정합니다. 
 
 ### 5. 학습 진행
 * train_2D_model.py 또는 train_3D_model.py를 실행합니다.
 
+### 6. 교차 검증 및 시각화
+* cross_validtion.py 를 실행하여 과적합을 방지하고, 각 fold 별 Confusion_Matrix 를 출력합니다.
+
 ### 6. 결과 출력
 * 학습이 완료된 이후, 예측 결과 값이 csv 파일로 출력됩니다.
+
+
