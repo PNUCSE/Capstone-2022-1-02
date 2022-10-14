@@ -44,7 +44,7 @@
 # 5. 사용법
 
 ### 1. 파일 다운로드
-* 먼저 git clone을 통하여 repository의 파일을 다운받습니다. 2D 모델 학습을 위해서는 train_2D_model.py를, 3D 모델 학습을 위해서는 train_3D_model.py를, 3D 모델 학습에 필요한 전처리 데이터를 직접 준비하고 싶을 경우 resizing_to_3D.py를 준비합니다. 미리 준비된 3D 전처리 데이터를 사용하고 싶을 경우 3D_resized_image directory의 파일을 다운받습니다.
+* 먼저 git clone을 통하여 repository의 파일을 다운받습니다. 2D 모델 학습을 위해서는 model 폴더의 train_2D_model.py를, 3D 모델 학습을 위해서는 model 폴더의 train_3D_model.py를, 3D 모델 학습에 필요한 전처리 데이터를 직접 준비하고 싶을 경우 model 폴더의 resizing_to_3D.py를 준비합니다. 미리 준비된 3D 전처리 데이터를 사용하고 싶을 경우 3D_resized_image directory의 파일을 다운받습니다.
 * 2D 모델 학습과 3D 전처리 데이터 코드의 실행을 위해 kaggle(https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/data)에서 제공하는 원본 데이터를 다운받습니다.
 
 ### 2. 환경 설정
@@ -71,10 +71,10 @@ pip install tqdm
 * k-fold-cv 의 상위 경로와 Confusion_Matrix_fold{} 를 출력할 경로를 수정합니다. 
 
 ### 5. 학습 진행
-* train_2D_model.py 또는 train_3D_model.py를 실행합니다.
+* model 폴더의 train_2D_model.py 또는 train_3D_model.py를 실행합니다.
 
 ### 6. 교차 검증 및 시각화
-* cross_validtion.py 를 실행하여 과적합을 방지하고, 각 fold 별 Confusion_Matrix 를 출력합니다.
+* model 폴더의 cross_validtion.py 를 실행하여 과적합을 방지하고, 각 fold 별 Confusion_Matrix 를 출력합니다.
 
 ### 6. 결과 출력
 * 학습이 완료된 이후, 예측 결과 값이 csv 파일로 출력됩니다.
