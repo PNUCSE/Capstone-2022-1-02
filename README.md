@@ -49,6 +49,8 @@
 
 ### 2. 환경 설정
 * 개발 환경은 python 3.6.9입니다.
+
+### 3. 사용 라이브러리
 * 코드 실행에 필요한 python library를 다운받습니다.
 ```
 pip install numpy
@@ -61,3 +63,5 @@ pip install tensorflow
 pip install scikit-learn
 pip install tqdm
 ```
+
+### 4. 
