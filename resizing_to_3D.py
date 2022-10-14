@@ -6,7 +6,6 @@ from pydicom.dataset import Dataset, FileDataset, FileMetaDataset
 from pydicom.uid import ExplicitVRLittleEndian
 import pydicom._storage_sopclass_uids
 from pydicom.pixel_data_handlers.util import apply_voi_lut
-import matplotlib.pyplot as plt
 
 DATASET = 'test'
 scan_types = ['FLAIR','T1w','T1wCE','T2w']
