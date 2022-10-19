@@ -38,7 +38,7 @@
 <br/>
 
 # 4. 소개 및 시연 영상
-- 프로젝트 소개 유투브 링크 달기
+[![02조 의료영상 처리 및 분석, 진단 인공지능 학습모델 개발](https://www.youtube.com/watch?vi/HKTPenKqjCA/0.jpg)](https://www.youtube.com/watch?v=HKTPenKqjCA)
 <br/>
 
 # 5. 사용법
@@ -49,7 +49,7 @@
 
 ### 2. 환경 설정
 * Ubuntu 18.04.6 버전에서 개발되었습니다.
-* Python 3.6.9 버전을 사용합니다. 
+* Python 3.6.9 버전을 사용합니다.
 * 원본 결과와 예측 결과를 비교하기 위해 Google Colab을 사용하였습니다.
 
 ### 3. 사용 라이브러리
@@ -68,7 +68,7 @@ pip install tqdm
 
 ### 4. 경로 수정
 * csv 파일이 저장된 경로(train_df, test_df)와 데이터 셋이 저장된 경로(train_dir, test_dir)를 해당 파일이 저장된 경로로 수정합니다.
-* k-fold-cv 의 상위 경로와 Confusion_Matrix_fold{} 를 출력할 경로를 수정합니다. 
+* k-fold-cv 의 상위 경로와 Confusion_Matrix_fold{} 를 출력할 경로를 수정합니다.
 
 ### 5. 학습 진행
 * model 폴더의 train_2D_model.py 또는 train_3D_model.py를 실행합니다.
@@ -78,5 +78,3 @@ pip install tqdm
 
 ### 6. 결과 출력
 * 학습이 완료된 이후, 예측 결과 값이 csv 파일로 출력됩니다.
-
-
