@@ -38,7 +38,7 @@
 <br/>
 
 # 4. 소개 및 시연 영상
-[![02조 의료영상 처리 및 분석, 진단 인공지능 학습모델 개발](https://www.youtube.com/watch?vi/HKTPenKqjCA/0.jpg)](https://www.youtube.com/watch?v=HKTPenKqjCA)
+[![02조 의료영상 처리 및 분석, 진단 인공지능 학습모델 개발](https://www.youtube.com/watch/vi/HKTPenKqjCA/0.jpg)](https://www.youtube.com/watch?v=HKTPenKqjCA)
 <br/>
 
 # 5. 사용법
